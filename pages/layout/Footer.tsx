@@ -7,7 +7,7 @@ export default function Footer() {
         <>
             <div className={styles.footer}>
                 <div className={styles.leftFooter}>
-                    <Image src={logo}/>
+                    <Image src={logo} alt='logo-ofppt'/>
                     <button>Contactez nous</button>
                 </div>
 
