@@ -5,16 +5,21 @@ import styles from '../../styles/layout/footer.module.css';
 export default function Footer() {
     return(
         <>
-            <div className="footer">
-                <div className="leftFooter">
-                    <Image src={logo}></Image>
+            <div className={styles.footer}>
+                <div className={styles.leftFooter}>
+                    <Image src={logo}/>
+                    <button>Contactez nous</button>
                 </div>
 
-                <div className="centerFooter">
-
+                <div className={styles.centerFooter}>
+                    <h1></h1>
+                    <p></p>
+                    <div></div>
+                    <div></div>
+                    <div></div>
                 </div>
 
-                <div className="rightFooter">
+                <div className={styles.rightFooter}>
 
                 </div>
             </div>

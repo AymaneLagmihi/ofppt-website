@@ -14,7 +14,7 @@ export default function Home() {
             Office de la Formation Professionnelle et du travail <span>CFIJ Al Karia</span> 
           </h1>
           <p className={styles.paragraphe}>
-            Depuis son ouverture en 2015, l'OFPPT Al Karia a formé plus de 1000 techniciens dans les secteurs informatiques.
+            Depuis son ouverture en 2015, l OFPPT Al Karia a formé plus de 1000 techniciens dans les secteurs informatiques.
           </p>
         </div>
 
