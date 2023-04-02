@@ -40,7 +40,7 @@
 }
 
 
-.header_center ul li button{
+.midleButton{
     background: rgba(0, 110, 216, 0.47);
     backdrop-filter: blur(13px);
     border-radius: 22px;

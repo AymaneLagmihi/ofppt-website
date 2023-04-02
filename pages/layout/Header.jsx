@@ -18,14 +18,14 @@ export default function Header() {
                     
                     <nav className={styles.header_center}>
                         <ul>
-                            <li><button className={styles.midleButton}>Accueil</button></li>
-                            <li><button className={styles.midleButton}>Emplois</button></li>
-                            <li><button className={styles.midleButton}>Contact</button></li>
+                            <li><Link className={styles.midleButton} href="/">Accueil</Link></li>
+                            <li><Link className={styles.midleButton} href="/Empoloits">Emplois</Link></li>
+                            <li><Link className={styles.midleButton} href="/Contact">Contact</Link></li>
                         </ul>
                     </nav>
 
                     <div className={styles.header_right}>
-                        <button className={styles.headerConnect}>SE CONNECTER</button>
+                        <Link className={styles.headerConnect} href="/SeConnectez">SE CONNECTER</Link>
                     </div>
                         
             
