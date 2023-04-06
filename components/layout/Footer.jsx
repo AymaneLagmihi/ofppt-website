@@ -22,20 +22,20 @@ export default function Footer() {
                                 <div className={styles.icones}>
                                     <i></i>
                                 </div>
-                                <p>Hisham Talha</p>                               
+                                <p>Aymane Lagmihi</p>                               
                             </div>
 
                             <div className={styles.coordonne}>
                                 <div className={styles.icones}>
                                     <i></i>
                                 </div>
-                                <p>Simi Bahra</p>  
+                                <p>Simo Bahri</p>  
                             </div>
                             <div className={styles.coordonne}>
                                 <div className={styles.icones}>
                                     <i></i>
                                 </div>
-                                <p>Aymane Lagmihi</p>
+                                <p>Hisham Talha</p>
                             </div>
                         </div>
                     </div>
