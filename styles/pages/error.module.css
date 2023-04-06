@@ -1,0 +1,71 @@
+.errorSide{
+    justify-content: center;
+    width: 100%;
+    display: block;
+    padding: 0% 5% 2% 5%;
+    box-sizing: border-box;
+}
+.h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 150px;
+    line-height: 225px;
+    align-items: center;
+    text-align: center;
+
+    color: #E63946;
+}
+
+.p1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32.5px;
+    line-height: 49px;
+    align-items: center;
+    text-align: center;
+    
+    color: #E63946;
+    
+}
+
+.p2{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.button{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    padding: 1%;
+    
+}
+
+.button button{
+    width: 20vw;
+    background: none;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #E63946;
+    filter: drop-shadow(0px 20px 50px rgba(38, 196, 133, 0.25));
+    border-radius: 41px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #E63946;
+    transition: 0.2s ease-in-out;
+}
+
+.button button:hover{
+    transition: 0.2s ease-in-out;
+    background-color: #E63946;
+    color: white;
+}

@@ -1,12 +1,24 @@
 import '@/styles/global/globals.css';
 import { AppProps } from 'next/app';
 import Layout from './layout/Layout';
+import PreLoader from './PreLoader';
 
 
 export default function App({ Component, pageProps }) {
-  return (
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
-  ) 
+  
+    // switch(Component){
+    //   case SeConnecter():{
+    //     return <Component {...pageProps} />;
+    //   }
+    //   default :
+        return (
+          <div className='allComponent'>
+            <Layout>
+              <Component {...pageProps} />
+            </Layout>
+          </div>
+        ) 
+    // }
+    
+  
 }

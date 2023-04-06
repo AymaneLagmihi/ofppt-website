@@ -8,7 +8,8 @@
       {
         "ignore": [
           "backdrop-filter",
-          "scale"
+          "scale",
+          "scroll-behavior"
         ]
       }
     ]

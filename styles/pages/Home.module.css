@@ -1,8 +1,8 @@
 .body{
-    background-image: url(../../public/background.png);
     width: 100%;
-    height: 120vh;
+    min-height: 120vh;
     box-sizing: border-box;
+    padding-top: 2%;
 }
 
 .container{
@@ -105,3 +105,18 @@
     color: rgba(255, 255, 255, 0.67);
 }
 
+@media only screen and (max-width: 1024px){
+    .cardsContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        width: 85%;
+        height: 25vh;
+    }
+    .header{
+        font-size: 2.2rem;
+    }
+}
