@@ -80,10 +80,6 @@ export default function Navigation(){
                             </li>
                     </div>
 
-                    {/* <label htmlFor="nav-toggle" className={styles.nav_toggle}>
-                        <lord-icon src="https://cdn.lordicon.com/wgwcqouc.json" trigger="morph" colors="primary:#008b45,secondary:#000000" stroke="95" style="width:250px;height:250px"/>
-                    </label> */}
-
                 </div>
             
             </div>

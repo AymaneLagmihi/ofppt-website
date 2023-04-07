@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 .body{
     position: relative;
@@ -19,4 +20,30 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
     
+}
+
+.backBtn{
+    width: 7vh;
+    height: 7vh;
+    background-color: #000000a2;
+    backdrop-filter: blur(3px);
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+}
+
+.backBtn:hover{
+    background-color: #000000cb;
+    scale: 1.05;
+    transition: 0.2s ease-in-out;
+}
+
+.arrow{
+    color: white;
+
 }

@@ -2,8 +2,7 @@
     width: 100%;
     height: auto;
     display: flex;
-    padding-inline: 7%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
  

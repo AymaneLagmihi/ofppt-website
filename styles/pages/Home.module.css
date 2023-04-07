@@ -45,6 +45,7 @@
     color: #5A5A5A;
 }
 .cardsContainer{
+    padding-inline:2% ;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -53,9 +54,9 @@
 }
 
 .card{
-    width: 55vh;
-    height: 13vw;
-
+    width: 50vh;
+    height: 230px;
+    box-sizing: border-box;
     background: linear-gradient(114.95deg, rgba(0, 219, 109, 0.4554) 0%, rgba(0, 113, 56, 0.69) 100%);
     box-shadow: 9px 11px 29px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(9px);
@@ -90,20 +91,22 @@
 }
 
 .card p{
-    padding-inline: 5vh;
+    padding-inline: 2vh;
     top: 15vh;
     position: absolute;
     width: 100%;
 
     font-weight: 500;
     font-size: 1.5rem;
-    line-height: 39px;
+    line-height: 2rem;
     
     text-align: center;
     letter-spacing: 0.08em;
     
     color: rgba(255, 255, 255, 0.67);
 }
+
+
 
 @media only screen and (max-width: 1024px){
     .cardsContainer{

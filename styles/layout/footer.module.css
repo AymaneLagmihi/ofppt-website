@@ -44,7 +44,7 @@
 
 .contacteButton{
     box-sizing: border-box;
-    width: 20vw;
+    width: 25vh;
     height: 7vh;
     justify-content: center;
     background: rgba(255, 255, 255, 0.17);
@@ -131,6 +131,8 @@
 }
 
 .coordonne{
+    justify-content: flex-start;
+    gap: 1vh;
     display: flex;
     box-sizing: border-box;
 }
@@ -159,7 +161,7 @@
     .footer{
         display: block;
         width: 100%;
-        height: 100vh;
+        height: 90vh;
         align-items: center;
         box-sizing: border-box;
     }

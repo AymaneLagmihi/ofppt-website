@@ -19,9 +19,8 @@ export default function contact() {
                     </form>
                 </div>
                 <div className={styles.side_right}>
-                    <a href="https://goo.gl/maps/NrqiXBMrxzENqv6s9" target="_blank">
-                        <Image className={styles.side_image} src={map} alt="CFPIJ alkaria sur google maps"/>
-                    </a>
+                    <iframe  className={styles.side_image} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1803.1868277208084!2d-6.7677737429045814!3d34.01669073567903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76a60d6632f93%3A0x6ff00f067effb565!2sCfpij!5e0!3m2!1sen!2sma!4v1680901325817!5m2!1sen!2sma" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    {/* <Image className={styles.side_image}  href="https://goo.gl/maps/NrqiXBMrxzENqv6s9" src={map} alt="CFPIJ alkaria sur google maps" target="_blank"/> */}
                 </div>
             </div>
         </div>

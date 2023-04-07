@@ -2,9 +2,6 @@
     box-sizing: border-box;
     height: 100vh;
 }
-.logo{
-
-}
 .loginSide{
     width: 50%;
     height: 100vh;
@@ -21,6 +18,9 @@
     height: 56px;
     background-color: white;
     border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .containerForm{
@@ -37,7 +37,12 @@
     color: #FFFFFF;
 
 }
-
+.div{
+    padding: 3% 10%;
+}
+.button1{
+    padding: 3% 30%;
+}
 .textSide p{
     font-style: normal;
     font-weight: 500;
@@ -47,10 +52,28 @@
     
     color: #FFFFFF;
 }
-.allInputs{
-
-}
-
 .input{
-
+    height: 5vh;
+    width: 50vh;
+    position: relative;
+    background-color: rgba(240, 248, 255, 0.256);
+    text-align: center;
+    border-radius: 80px;
+    border: 2px solid black;
 }
+.button{
+    color: rgb(10, 10, 10);
+    background-color:#ffffff;
+    border-radius: 30px;
+    height: 5vh;
+    width: 150px;
+}
+.button:hover{
+    background-color:#008B45;
+    color: rgb(254, 252, 252);
+}
+.button:active {
+    background-color:#008B45;
+    box-shadow: 0 1px #0f0f0f;
+    transform: translateY(4px);
+  }

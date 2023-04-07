@@ -8,30 +8,28 @@ export default function SeConnecter() {
     return(
     <>
     <div className={styles.loginPage}>
-        <Image className={styles.logo} src={logo} alt="logo-ofppt"/>
+
         <div className={styles.loginSide}>
-            
-            <div className={styles.backIcon}>
-                <Link href="/">
-                    <ArrowBackIosNewRoundedIcon/>
-                </Link>
-            </div>
+            <Link href="/"  className={styles.backIcon}>
+                <ArrowBackIosNewRoundedIcon  className={styles.arrow}/>
+            </Link>
             <div className={styles.containerForm}>
                 <div className={styles.textSide}>
                     <h1>Se connecter</h1>
                     <p>Content de te revoir  Veuillez saisir vos cordonnées.</p> 
                 </div>
                 <div className={styles.allInputs}> 
-                    <div className={styles.input}>
+                    <div className={styles.div}>
                         <i className={styles.circl}></i>
-                        <input className={styles.input_txt} type="text" placeholder="Entrez votre adresse e-mail"/> 
-                    
+                        <input required className={styles.input} type="email" placeholder="Entrez votre adresse e-mail" /> 
                     </div>
-                    <div className={styles.input}>
+                    <div className={styles.div}> 
                         <i className={styles.circl}></i>
-                        <input className={styles.input_psw} type="password" placeholder="Entrez votre mot de passe"/>  
+                        <input required className={styles.input} type="password" placeholder="Entrez votre mot de passe" minlength="8"/>  
                     </div>
-                    <button>Se connecter</button> 
+                    <div className={styles.button1}>
+                    <button className={styles.button}>Se connecter</button> 
+                    </div>
                 </div>
             </div>
         </div>
