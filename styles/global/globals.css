@@ -14,7 +14,7 @@
     position: absolute;
 }
 .allComponent{
-    background-image: url(../../public/background.jpg);
+    background-image: url(/background.jpg);
     background-repeat: repeat-y;
     width: 100%;
     overflow-x: hidden;
