@@ -23,6 +23,7 @@ export default function App({ Component, pageProps }) {
   return (
     <div className='allComponent'>
       <Header>
+        <meta name='theme-color' content='#008B45'/>
         <meta charset="UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
