@@ -86,9 +86,9 @@
 }
 .form button{
     background-color: transparent;
-    width: 60%;
+    width: 30%;
     margin: 0 auto;
-    height: 7vh;
+    height: 2.7rem;
     justify-content: center;
     text-align: center;
     color: #008B45;

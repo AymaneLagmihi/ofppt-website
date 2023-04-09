@@ -84,7 +84,6 @@
     color: #FFFFFF;
 }
 .allInputs{
-    padding: 4%;
     display: grid;
     align-items: center;
     gap: 3vh;
