@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Head from 'next/head';
 import Script from 'next/script'
 import Link from 'next/link';
-import logo from '../../public/logo.png';
+import logo from '/logo.png';
 import styles from '../../styles/layout/header.module.css';
 import Header from "next/head";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

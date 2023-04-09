@@ -1,7 +1,7 @@
 import styles from '../styles/pages/SeConnecter.module.css';
 import Image from 'next/image';
 import logo from '../public/logo.png';
-import illustration from '../public/illustration.png';
+import illustration from '/illustration.png';
 import Link from 'next/link';
 import ArrowBackIosNewRoundedIcon from '@mui/icons-material/ArrowBackIosNewRounded';
 
