@@ -2,7 +2,6 @@
     display: block;
     width: 100%;
     height: 175vh;
-    padding-top: 10vh;
     box-sizing: border-box;
 }
 .contact_header{
@@ -41,9 +40,15 @@
     justify-content: space-between;
     gap: 1.2vh;
 }
+.side_right{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 50vh;
+}
 .side_right iframe{
     border: none;
-    width: max-content;
     width: 100%;
     height: 100%;
     padding: 2%;
@@ -128,12 +133,15 @@
     }
     .side_right{
         width: 50%;
-        height: 100%;
+        height: 53vh;
         float: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .side_right iframe{
-        width: max-content;
-        height: max-content;
+        width: 100%;
+        height: 100%;
         transition: .2s ease-in-out;
         padding: 0%;
         

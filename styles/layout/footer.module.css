@@ -134,6 +134,7 @@
     justify-content: flex-start;
     gap: 1vh;
     display: flex;
+    align-items: center;
     box-sizing: border-box;
 }
 .coordonne p {

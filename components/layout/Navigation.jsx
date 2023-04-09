@@ -48,7 +48,7 @@ export default function Navigation(){
                     </div>
 
                     {/* Responsive nav */}
-                    <div>
+                    <div className={styles.toggle}>
                         <div className={styles.toggleIcon}></div>
                         <div className={styles.toggleIcon}></div>
                         <div className={styles.toggleIcon}></div>

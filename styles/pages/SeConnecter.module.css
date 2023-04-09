@@ -58,17 +58,17 @@
 }
 
 .containerForm{
-    padding:10%;
+    padding:7%;
     display: grid;
     align-items: center;
     justify-content: center;
-    gap: 5vh;
+    gap: 7vh;
 }
 
 .textSide h1{
     font-style: normal;
     font-weight: 800;
-    font-size: 2.2rem;
+    font-size: 2.7rem;
     letter-spacing: 0.08em;
     
     color: #FFFFFF;
@@ -84,9 +84,10 @@
     color: #FFFFFF;
 }
 .allInputs{
+    padding: 4%;
     display: grid;
     align-items: center;
-    gap: 1vh;
+    gap: 3vh;
 }
 .div{
     background: #FFFFFF;              
@@ -100,20 +101,20 @@
     z-index: 60;
     border-radius: 1000px;
     background-color: #008B45;
+    position: absolute;
 }
 .input{
     height: 6vh;
     width: 100%;
-    position: relative;
+    padding-left: 70px;
     text-align: left;
-    padding-inline: 2%;
     background: none;
     border:none;
     border-radius: 80px;
 
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 1.2rem;
     line-height: 26px;
     /* identical to box height */
 
@@ -140,8 +141,8 @@
 
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 33px;
+    font-size: 1.2rem;
+
     
     text-align: center;
     letter-spacing: 0.08em;
