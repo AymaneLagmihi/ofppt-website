@@ -39,11 +39,5 @@
 
 .backBtn:hover{
     background-color: #000000cb;
-    scale: 1.05;
     transition: 0.2s ease-in-out;
-}
-
-.arrow{
-    color: white;
-
 }

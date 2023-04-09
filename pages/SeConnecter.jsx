@@ -1,6 +1,7 @@
 import styles from '../styles/pages/SeConnecter.module.css';
 import Image from 'next/image';
 import logo from '../public/logo.png';
+import illustration from '../public/illustration.png';
 import Link from 'next/link';
 import ArrowBackIosNewRoundedIcon from '@mui/icons-material/ArrowBackIosNewRounded';
 
@@ -8,10 +9,20 @@ export default function SeConnecter() {
     return(
     <>
     <div className={styles.loginPage}>
+        
+        <div className={styles.leftSide}>
+            <div className={styles.header}>
+                <Image src={logo} className={styles.logo} alt='logo'/>
+            </div>
+
+            <div className={styles.imageIllustration}>
+                <Image src={illustration} className={styles.illustration} alt='illustration'/>
+            </div>
+        </div>
 
         <div className={styles.loginSide}>
             <Link href="/"  className={styles.backIcon}>
-                <ArrowBackIosNewRoundedIcon  className={styles.arrow}/>
+                <ArrowBackIosNewRoundedIcon  className={styles.arrow} sx={{ color: '#008B45' }}/>
             </Link>
             <div className={styles.containerForm}>
                 <div className={styles.textSide}>
@@ -21,14 +32,14 @@ export default function SeConnecter() {
                 <div className={styles.allInputs}> 
                     <div className={styles.div}>
                         <i className={styles.circl}></i>
-                        <input required className={styles.input} type="email" placeholder="Entrez votre adresse e-mail" /> 
+                        <input className={styles.input} type="email" placeholder="Entrez votre adresse e-mail" /> 
                     </div>
                     <div className={styles.div}> 
                         <i className={styles.circl}></i>
-                        <input required className={styles.input} type="password" placeholder="Entrez votre mot de passe" minlength="8"/>  
+                        <input className={styles.input} type="password" placeholder="Entrez votre mot de passe" minlength="8"/>  
                     </div>
                     <div className={styles.button1}>
-                    <button className={styles.button}>Se connecter</button> 
+                        <button className={styles.button}>Se connecter</button> 
                     </div>
                 </div>
             </div>

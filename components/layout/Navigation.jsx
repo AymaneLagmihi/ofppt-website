@@ -16,9 +16,6 @@ export default function Navigation(){
     
     return(
         <>
-            {/* <Header>
-                <Script src="https://cdn.lordicon.com/ritcuqlt.js"></Script>
-            </Header> */}
             <div className="container">
                 <div className={styles.header}>
                     <div className={styles.header_left}>
@@ -83,9 +80,7 @@ export default function Navigation(){
                 </div>
             
             </div>
-            <script>
 
-            </script>
         </>
     )
 }
