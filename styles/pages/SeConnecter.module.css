@@ -42,7 +42,7 @@
     background: linear-gradient(141.69deg, rgba(2, 198, 99, 0.42) 0%, rgba(0, 130, 255, 0.357) 100%);
     box-shadow: -28px 0px 49px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(2px);
-    padding: 1%;
+    padding: 3%;
     box-sizing: border-box;
 }
 
@@ -104,9 +104,10 @@
     position: absolute;
 }
 .input{
+    box-sizing: border-box;
     height: 6vh;
     width: 100%;
-    padding-left: 70px;
+    padding-left: 60px;
     text-align: left;
     background: none;
     border:none;
@@ -115,17 +116,13 @@
     font-style: normal;
     font-weight: 400;
     font-size: 1.2rem;
-    line-height: 26px;
-    /* identical to box height */
 
     letter-spacing: 0.08em;
 
     color: #505050;
     outline: none;
 }
-.input:focus{
-    border: none;
-}
+
 .button1{
     width: 100%;
     justify-content: center;

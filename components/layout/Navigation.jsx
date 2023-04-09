@@ -24,11 +24,13 @@ export default function Navigation(){
                                     <button  className={styles.navbar_link}>Accueil</button>
                                 </Link>
                             </li>
+
                             <li className={styles.navbar_item}>
                                 <Link href="/Emplois">
                                     <button className={styles.navbar_link}>Emplois</button>
                                 </Link>
                             </li>
+                            
                             <li className={styles.navbar_item}>
                                 <Link href="/Contact">
                                     <button className={styles.navbar_link}>Contact</button>
