@@ -11,8 +11,9 @@ import KeyboardArrowUpRoundedIcon from '@mui/icons-material/KeyboardArrowUpRound
 export default function App({ Component, pageProps }) {
   function scrollTop(){
     window.scrollTo(0, 0);
-   }
-   const router = useRouter();
+  }
+
+  const router = useRouter();
 
   if(router.asPath =='/SeConnecter')  {
      return (
@@ -23,6 +24,7 @@ export default function App({ Component, pageProps }) {
   return (
     <div className='allComponent'>
       <Header>
+        <link rel="icon" type="image/png" href='/logo.png' sizes="any" />
         <meta name='theme-color' content='#008B45'/>
         <meta charset="UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
