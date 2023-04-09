@@ -1,10 +1,11 @@
 .container{
     display: block;
     width: 100%;
-    height: 175vh;
     box-sizing: border-box;
 }
 .contact_header{
+    padding-top: 4%;
+    padding-inline: 5%;
     box-sizing: border-box;
 }
 .p0{
@@ -58,7 +59,7 @@
     color: #5A5A5A;
     display: flex;
     box-sizing: border-box;
-    width: 100%;
+    width: 90%;
     height: 2.7rem;
     border-radius: 20%;
     text-align: center;
@@ -71,7 +72,7 @@
 .form textarea{
     display: flex;
     box-sizing: border-box;
-    width: 100%;
+    width: 90%;
     padding-left: 5%;
     padding-top: 3%;
     scroll-behavior: auto;
@@ -117,7 +118,7 @@
 
 @media only screen and (min-width: 1024px){
     .container{
-        height: 90vh;
+        height: 100vh;
         margin-bottom: 3vh
     }
     .contact_header{
