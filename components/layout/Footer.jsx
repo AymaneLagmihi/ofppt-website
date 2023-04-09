@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import logo from '../../public/logo.png';
+import iconeDev from '../../public/iconeDev.png';
 import styles from '../../styles/layout/footer.module.css';
 
 export default function Footer() {
@@ -19,22 +20,19 @@ export default function Footer() {
                         <div className={styles.devloppeurs}>
 
                             <div className={styles.coordonne}>
-                                <div className={styles.icones}>
-                                    <i></i>
-                                </div>
+                                
+                                <Image src={iconeDev} alt='logo-ofppt' className={styles.iconeDev}/>
                                 <p>Aymane Lagmihi</p>                               
                             </div>
 
                             <div className={styles.coordonne}>
-                                <div className={styles.icones}>
-                                    <i></i>
-                                </div>
+                                
+                                <Image src={iconeDev} alt='logo-ofppt' className={styles.iconeDev}/>
                                 <p>Simo Bahri</p>  
                             </div>
                             <div className={styles.coordonne}>
-                                <div className={styles.icones}>
-                                    <i></i>
-                                </div>
+                                
+                                <Image src={iconeDev} alt='logo-ofppt' className={styles.iconeDev}/>
                                 <p>Hisham Talha</p>
                             </div>
                         </div>
