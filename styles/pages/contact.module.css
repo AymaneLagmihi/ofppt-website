@@ -25,8 +25,7 @@
     text-align: center;
     letter-spacing: 0.08em;
     color: #5A5A5A;
-    padding-left: 15px;
-    padding-right: 16px;
+    padding-inline: 3%;
 }
 .contact_side{
     padding: 2%;
@@ -88,7 +87,7 @@
     background-color: transparent;
     width: 30%;
     margin: 0 auto;
-    height: 2.7rem;
+    height: 7vh;
     justify-content: center;
     text-align: center;
     color: #008B45;
