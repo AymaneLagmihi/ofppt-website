@@ -120,7 +120,7 @@
 
     letter-spacing: 0.08em;
 
-    color: #A8A8A8;
+    color: #505050;
     outline: none;
 }
 .input:focus{
@@ -132,23 +132,40 @@
     display: flex;
 }
 .button{
-    background-color:#008B45;
-    color: #FFFFFF;
-    border-radius: 100px;
-    border: none;
     height: 6vh;
     width: 30vh;
-
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 1.2rem;
 
-    
-    text-align: center;
+    background: #008B45;
     letter-spacing: 0.08em;
-    
-    color: #FFFFFF;
+    color: #ffffff;
+
+
+    border: 3px solid #008B45;
+    border-radius: 100px;
+    transition: 0.2s ease-in-out;
 }
 .button:hover{
-    
+    scale: 1.04;
+}
+
+@media only screen and (max-width: 1024px){
+    .loginSide{
+        background: linear-gradient(141.69deg, rgba(2, 198, 99, 0.42) 0%, rgba(0, 130, 255, 0.357) 100%);
+        backdrop-filter: blur(5px);
+        position:absolute;
+        width: 100%;
+    }
+    .leftSide{
+        width: 100%;
+    }
+    .header{
+        align-items: center;
+        justify-content: center;
+    }
+    .logo{
+        z-index: 90;
+    }
 }

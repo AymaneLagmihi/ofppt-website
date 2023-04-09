@@ -6,14 +6,15 @@ import logo from '../../public/logo.png';
 import styles from '../../styles/layout/header.module.css';
 import Header from "next/head";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
-// import lottie from 'lottie-web';
-// import { defineElement } from 'lord-icon-element';
-// defineElement(lottie.loadAnimation);
+import React, {useState, useEffect, useRef} from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 
 export default function Navigation(){
-    
+    const [isOpen, setIsOpen] = useState(false);
+
+
+
     return(
         <>
             <div className="container">
@@ -48,34 +49,49 @@ export default function Navigation(){
                     </div>
 
                     {/* Responsive nav */}
-                    <div className={styles.toggle}>
+                    
+                    <div className={styles.toggle} onClick={() => {setIsOpen(!isOpen)}}>
                         <div className={styles.toggleIcon}></div>
                         <div className={styles.toggleIcon}></div>
                         <div className={styles.toggleIcon}></div>
                     </div>
-
-                    <div className={styles.dropDown_menu}>
-                            <li className={styles.navbar_item}>
-                                <Link href="/">
-                                    <button  className={styles.navbar_link}>Accueil</button>
-                                </Link>
-                            </li>
-                            <li className={styles.navbar_item}>
-                                <Link href="/Emplois">
-                                    <button className={styles.navbar_link}>Emplois</button>
-                                </Link>
-                            </li>
-                            <li className={styles.navbar_item}>
-                                <Link href="/Contact">
-                                    <button className={styles.navbar_link}>Contact</button>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/SeConnecter">
-                                    <button className={styles.headerConnect}>SE CONNECTER</button>
-                                </Link>
-                            </li>
-                    </div>
+                    <AnimatePresence>
+                        {
+                            isOpen && (
+                                <>
+                                    <motion.div 
+                                        initial={{ opacity: 0, x: 100 }}
+                                        animate={{ opacity: 1, x: 0 }}
+                                        exit={{ opacity: 0, x: 100 }}
+                                        className={styles.dropDown_menu}
+                                    >
+                                        <div className={styles.allLinks}>
+                                            <li className={styles.navbar_item}>
+                                                <Link href="/">
+                                                    <button  className={styles.navbar_link}>Accueil</button>
+                                                </Link>
+                                            </li>
+                                            <li className={styles.navbar_item}>
+                                                <Link href="/Emplois">
+                                                    <button className={styles.navbar_link}>Emplois</button>
+                                                </Link>
+                                            </li>
+                                            <li className={styles.navbar_item}>
+                                                <Link href="/Contact">
+                                                    <button className={styles.navbar_link}>Contact</button>
+                                                </Link>
+                                            </li>
+                                            <li className={styles.navbar_item}>
+                                                <Link href="/SeConnecter">
+                                                    <button className={styles.headerConnect}>SE CONNECTER</button>
+                                                </Link>
+                                            </li>
+                                        </div>
+                                    </motion.div>
+                                </>
+                            )
+                        }
+                    </AnimatePresence>
 
                 </div>
             
